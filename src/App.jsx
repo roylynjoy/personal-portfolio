@@ -81,13 +81,11 @@ function App() {
         <div className="table-cell">
           <div className="container">
             {/*<p class="display-6 color-d">Hello, world!</p>*/}
-            <h1 className="intro-title mb-4">I am Roylyn Dicdican</h1>
+            <p className='myname'>I am Roylyn Dicdican</p>
             <p className="intro-subtitle">
-              <span className="text-slider-items">
+              <div id='u'>
                 CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic
-                Designer
-              </span>
-              <strong className="text-slider" />
+                Designer</div>
             </p>
             {/* <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> */}
           </div>
@@ -188,23 +186,18 @@ function App() {
                       <h5 className="title-left">About me</h5>
                     </div>
                     <p className="lead">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac
-                      lectus. Curabitur arcu erat, accumsan id imperdiet et,
-                      porttitor at sem. Praesent sapien massa, convallis a
-                      pellentesque nec, egestas non nisi. Nulla porttitor accumsan
-                      tincidunt.
+                      My name is Roylyn Dicdican, and I am currently pursuing a Bachelor of Science in Information Systems. 
+                      I have a strong interest in the intersection of technology and business, 
+                      and I enjoy learning about how systems and data can drive efficiency and innovation.  
                     </p>
                     <p className="lead">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                      Vivamus suscipit tortor eget felis porttitor volutpat.
-                      Vestibulum ac diam sit amet quam vehicula elementum sed sit
-                      amet dui. porttitor at sem.
+                      My academic journey has helped me develop skills in programming, 
+                      data analysis, and project management, 
+                      which I look forward to applying in real-world scenarios.
                     </p>
                     <p className="lead">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi,
-                      pretium ut lacinia in, elementum id enim. Nulla porttitor
-                      accumsan tincidunt. Mauris blandit aliquet elit, eget
-                      tincidunt nibh pulvinar a.
+                      Outside of my studies, I enjoy watching movies, and arts, 
+                      which help me stay balanced and motivated.
                     </p>
                   </div>
                 </div>
@@ -222,7 +215,7 @@ function App() {
             <div className="title-box text-center">
               <h3 className="title-a">Services</h3>
               <p className="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Choose the service you need.
               </p>
               <div className="line-mf" />
             </div>
@@ -239,9 +232,9 @@ function App() {
               <div className="service-content">
                 <h2 className="s-title">Web Design</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                  tempora perferendis eum non provident.
+                I provide web design services that create user-friendly, 
+                visually appealing websites optimized for performance 
+                and responsiveness across all devices.
                 </p>
               </div>
             </div>
@@ -256,9 +249,9 @@ function App() {
               <div className="service-content">
                 <h2 className="s-title">Web Development</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                  tempora perferendis eum non provident.
+                I offer web development services focused on building dynamic,
+                secure, and scalable websites using the latest 
+                technologies to meet your business needs.
                 </p>
               </div>
             </div>
@@ -273,9 +266,9 @@ function App() {
               <div className="service-content">
                 <h2 className="s-title">Photography</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                  tempora perferendis eum non provident.
+                I provide professional photography services, 
+                capturing high-quality images that bring your moments, products, 
+                or events to life with creativity and attention to detail.
                 </p>
               </div>
             </div>
@@ -290,9 +283,9 @@ function App() {
               <div className="service-content">
                 <h2 className="s-title">Responsive Design</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                  tempora perferendis eum non provident.
+                I offer responsive design services that ensure your 
+                website adapts seamlessly to any device, providing an 
+                optimal user experience on mobile, tablet, and desktop screens.
                 </p>
               </div>
             </div>
@@ -307,9 +300,9 @@ function App() {
               <div className="service-content">
                 <h2 className="s-title">Graphic Design</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                  tempora perferendis eum non provident.
+                I provide graphic design services, creating visually 
+                compelling designs that effectively communicate your 
+                brand’s message across various platforms and media.
                 </p>
               </div>
             </div>
@@ -324,9 +317,9 @@ function App() {
               <div className="service-content">
                 <h2 className="s-title">Marketing Services</h2>
                 <p className="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                  tempora perferendis eum non provident.
+                I offer marketing services focused on creating effective 
+                strategies to enhance brand visibility, engage target audiences, 
+                and drive business growth through digital and traditional channels.
                 </p>
               </div>
             </div>
@@ -350,7 +343,7 @@ function App() {
                 </span>
               </div>
               <div className="counter-num">
-                <p className="counter">450</p>
+                <p className="counter">0</p>
                 <span className="counter-text">WORKS COMPLETED</span>
               </div>
             </div>
@@ -363,7 +356,7 @@ function App() {
                 </span>
               </div>
               <div className="counter-num">
-                <p className="counter">15</p>
+                <p className="counter">3</p>
                 <span className="counter-text">YEARS OF EXPERIENCE</span>
               </div>
             </div>
@@ -376,7 +369,7 @@ function App() {
                 </span>
               </div>
               <div className="counter-num">
-                <p className="counter">550</p>
+                <p className="counter">0</p>
                 <span className="counter-text">TOTAL CLIENTS</span>
               </div>
             </div>
@@ -389,7 +382,7 @@ function App() {
                 </span>
               </div>
               <div className="counter-num">
-                <p className="counter">36</p>
+                <p className="counter">0</p>
                 <span className="counter-text">AWARD WON</span>
               </div>
             </div>
@@ -664,7 +657,7 @@ function App() {
                       alt=""
                       className="avatar rounded-circle"
                     />
-                    <span className="author">Morgan Freeman</span>
+                    <span className="author">Roylyn Dicdican</span>
                   </a>
                 </div>
                 <div className="post-date">
@@ -703,7 +696,7 @@ function App() {
                       alt=""
                       className="avatar rounded-circle"
                     />
-                    <span className="author">Morgan Freeman</span>
+                    <span className="author">Roylyn Dicdican</span>
                   </a>
                 </div>
                 <div className="post-date">
@@ -742,7 +735,7 @@ function App() {
                       alt=""
                       className="avatar rounded-circle"
                     />
-                    <span className="author">Morgan Freeman</span>
+                    <span className="author">Roylyn Dicdican</span>
                   </a>
                 </div>
                 <div className="post-date">
@@ -857,18 +850,17 @@ function App() {
                     </div>
                     <div className="more-info">
                       <p className="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis dolorum dolorem soluta quidem expedita aperiam
-                        aliquid at. Totam magni ipsum suscipit amet? Autem nemo
-                        esse laboriosam ratione nobis mollitia inventore?
+                      Feel free to get in touch to learn more about my services 
+                      or discuss new projects. Whether you have questions or want to collaborate, 
+                      I’m here to help and will respond promptly. Let’s connect!
                       </p>
                       <ul className="list-ico">
                         <li>
-                          <span className="ion-ios-location" /> 329 WASHINGTON ST
-                          BOSTON, MA 02108
+                          <span className="ion-ios-location" /> ADD st. Apalit
+                          Pampanga, 2016
                         </li>
                         <li>
-                          <span className="ion-ios-telephone" /> (617) 557-0089
+                          <span className="ion-ios-telephone" /> (+63) 907-381-8006
                         </li>
                         <li>
                           <span className="ion-email" /> contact@example.com

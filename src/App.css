@@ -1,7 +1,8 @@
-.intro-title {
+.myname {
   font-family: "Inria Serif", serif;
-  font-weight: 300;
+  font-weight: 700;
   font-style: normal;
+  font-size: 60px;
 }
 
 #about {
@@ -60,4 +61,33 @@ span{
   height: 5px;
   background-color: rgb(112, 105, 105);
   margin: 0 auto;
+}
+
+.work-content {
+  background-color: rgb(214, 207, 207);
+}
+
+
+
+#u{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+  border-right: 15em ;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from {width: 0}
+  to {width: 100%}
+}
+
+@keyframes blink-caret {
+  from, to{
+    border-color: transparent
+  }
 }
