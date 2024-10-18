@@ -398,7 +398,7 @@ function App() {
             <div className="title-box text-center">
               <h3 className="title-a">Portfolio</h3>
               <p className="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Highlights creative projects in web development and design.
               </p>
               <div className="line-mf" />
             </div>
@@ -414,7 +414,7 @@ function App() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Lorem impsum dolor</h2>
+                      <h2 className="w-title">Movie Page Concept</h2>
                       <div className="w-more">
                         <span className="w-ctegory">Web Design</span> /{" "}
                         <span className="w-date">18 Sep. 2018</span>
@@ -439,7 +439,7 @@ function App() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Loreda Cuno Nere</h2>
+                      <h2 className="w-title">NFT Avatars</h2>
                       <div className="w-more">
                         <span className="w-ctegory">Web Design</span> /{" "}
                         <span className="w-date">18 Sep. 2018</span>
@@ -464,7 +464,7 @@ function App() {
                 <div className="work-content">
                   <div className="row">
                     <div className="col-sm-8">
-                      <h2 className="w-title">Mavrito Lana Dere</h2>
+                      <h2 className="w-title">Analytics UX</h2>
                       <div className="w-more">
                         <span className="w-ctegory">Web Design</span> /{" "}
                         <span className="w-date">18 Sep. 2018</span>
@@ -482,9 +482,9 @@ function App() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="img/work-4.jpg" data-lightbox="gallery-mf">
+              <a href="img/work-4.gif" data-lightbox="gallery-mf">
                 <div className="work-img">
-                  <img src="img/work-4.jpg" alt="" className="img-fluid" />
+                  <img src="img/work-4.gif" alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row">
@@ -507,9 +507,9 @@ function App() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="img/work-5.jpg" data-lightbox="gallery-mf">
+              <a href="img/work-5.gif" data-lightbox="gallery-mf">
                 <div className="work-img">
-                  <img src="img/work-5.jpg" alt="" className="img-fluid" />
+                  <img src="img/work-5.gif" alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row">
@@ -532,9 +532,9 @@ function App() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="img/work-6.jpg" data-lightbox="gallery-mf">
+              <a href="img/work-6.gif" data-lightbox="gallery-mf">
                 <div className="work-img">
-                  <img src="img/work-6.jpg" alt="" className="img-fluid" />
+                  <img src="img/work-6.gif" alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row">
@@ -620,7 +620,9 @@ function App() {
             <div className="title-box text-center">
               <h3 className="title-a">Blog</h3>
               <p className="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explores insights on web development, 
+              design, and the latest tech trends, 
+              offering valuable tips and knowledge for readers.
               </p>
               <div className="line-mf" />
             </div>
@@ -863,21 +865,21 @@ function App() {
                           <span className="ion-ios-telephone" /> (+63) 907-381-8006
                         </li>
                         <li>
-                          <span className="ion-email" /> contact@example.com
+                          <span className="ion-email" /> roylynjoyestrera@gmail.com
                         </li>
                       </ul>
                     </div>
                     <div className="socials">
                       <ul>
                         <li>
-                          <a href="">
+                          <a href="https://web.facebook.com/roylynjoydicdican">
                             <span className="ico-circle">
                               <i className="ion-social-facebook" />
                             </span>
                           </a>
                         </li>
                         <li>
-                          <a href="">
+                          <a href="https://www.instagram.com/roylyndicdican/">
                             <span className="ico-circle">
                               <i className="ion-social-instagram" />
                             </span>
@@ -891,7 +893,7 @@ function App() {
                           </a>
                         </li>
                         <li>
-                          <a href="">
+                          <a href="https://ph.pinterest.com/roylynjoyestrera/">
                             <span className="ico-circle">
                               <i className="ion-social-pinterest" />
                             </span>

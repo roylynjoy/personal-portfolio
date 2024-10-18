@@ -40,7 +40,7 @@ span{
 
 .lead {
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
     margin-left: 20px;
 }
@@ -53,7 +53,7 @@ span{
 }
 
 .title-a {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .line-mf {
