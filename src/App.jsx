@@ -200,6 +200,9 @@ function App() {
                       which help me stay balanced and motivated.
                     </p>
                   </div>
+                  <div>
+                  <a href="resume.pdf" class="cv-button">CV</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -407,9 +410,9 @@ function App() {
         <div className="row">
           <div className="col-md-4">
             <div className="work-box">
-              <a href="img/work-1.jpg" data-lightbox="gallery-mf">
+              <a href="img/work-01.jpg" data-lightbox="gallery-mf">
                 <div className="work-img">
-                  <img src="img/work-1.jpg" alt="" className="img-fluid" />
+                  <img src="img/work-01.jpg" alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row">
@@ -432,9 +435,9 @@ function App() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="img/work-2.jpg" data-lightbox="gallery-mf">
+              <a href="img/work-02.jpg" data-lightbox="gallery-mf">
                 <div className="work-img">
-                  <img src="img/work-2.jpg" alt="" className="img-fluid" />
+                  <img src="img/work-02.jpg" alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row">
@@ -457,9 +460,9 @@ function App() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+              <a href="img/work-03.jpg" data-lightbox="gallery-mf">
                 <div className="work-img">
-                  <img src="img/work-3.jpg" alt="" className="img-fluid" />
+                  <img src="img/work-03.jpg" alt="" className="img-fluid" />
                 </div>
                 <div className="work-content">
                   <div className="row">
